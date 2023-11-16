@@ -1,0 +1,81 @@
+body{
+    font-family: 'Kalam', cursive;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    right: 0;
+    min-height: 70px;
+    box-shadow: 0px 0px 60px 0px #000000;
+    z-index: 4;
+    padding: 0;
+    background: rgba(16, 64, 184, 0.562);
+    color: white;
+    align-items: center;
+    
+}
+
+header nav form .btn-outline{
+    background: rgba(6, 25, 74, 0.562);
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav li{
+     font-size: 25px;
+     padding: 3px;
+}
+
+.nav-link, #id_atlas{
+    color: white;
+}
+
+
+main {
+    min-height: 50vh;
+}
+
+main .bg-image {
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/22/11/10/map-of-the-world-2164673_640.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    min-height: 120vh;
+    filter: blur(1px);
+    -webkit-filter: blur(6px);
+}
+
+.cardCountry{
+    background: rgb(191, 215, 246);
+}
+
+footer {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    position: fixed;
+    bottom: 0;
+    background: rgba(16, 64, 184, 0.562);
+    color: white;
+    
+}
+
+@media (max-width:768px) {
+
+    nav li{
+        font-size: 15px;
+   }
+   
+}
+
